@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Form</title>
+  <link rel="stylesheet" href="../styles/employee.css">
+</head>
+<body>
+  <h2>Employee Registration Form</h2>
+  <form id="employeeForm">
+    <fieldset>
+      <legend>Basic Info</legend>
+      <input type="text" name="employeeId" placeholder="Employee ID" required><br>
+      <input type="text" name="firstName" placeholder="First Name" required><br>
+      <input type="text" name="lastName" placeholder="Last Name" required><br>
+      <input type="text" name="nationalId" placeholder="National ID" required><br>
+      <input type="text" name="kraPin" placeholder="KRA PIN" required><br>
+      <input type="text" name="gender" placeholder="Gender" required><br>
+      <input type="date" name="dateOfBirth" placeholder="Date of Birth" required><br>
+      <input type="tel" name="phoneNumber" placeholder="Phone Number" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+      <input type="text" name="county" placeholder="County" required><br>
+      <input type="text" name="subCounty" placeholder="Sub-county" required><br>
+      <input type="text" name="ward" placeholder="Ward" required><br>
+      <input type="text" name="postalCode" placeholder="Postal Code" required><br>
+      <input type="text" name="physicalAddress" placeholder="Physical Address" required><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Job Info</legend>
+      <input type="text" name="jobTitle" placeholder="Job Title" required><br>
+      <input type="text" name="department" placeholder="Department" required><br>
+      <input type="date" name="dateHired" placeholder="Date Hired" required><br>
+      <input type="text" name="contractType" placeholder="Contract Type" required><br>
+      <input type="number" name="salary" placeholder="Salary" required><br>
+      <input type="text" name="nhifNumber" placeholder="NHIF Number" required><br>
+      <input type="text" name="nssfNumber" placeholder="NSSF Number" required><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Next of Kin</legend>
+      <input type="text" name="kinName" placeholder="Name" required><br>
+      <input type="text" name="kinRelationship" placeholder="Relationship" required><br>
+      <input type="tel" name="kinPhone" placeholder="Phone Number" required><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Emergency Contact</legend>
+      <input type="text" name="emergencyName" placeholder="Name" required><br>
+      <input type="text" name="emergencyRelationship" placeholder="Relationship" required><br>
+      <input type="tel" name="emergencyPhone" placeholder="Phone Number" required><br>
+    </fieldset>
+
+    <button type="submit">Create Employee</button>
+  </form>
+  <script src="../Js/employee.js"></script>
+</body>
+</html>

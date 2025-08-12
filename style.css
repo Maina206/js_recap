@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#myBtn {
+  font-size: 4rem;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.enabled {
+  background-color: blue;
+  color: white;
+}

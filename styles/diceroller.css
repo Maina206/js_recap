@@ -1,0 +1,48 @@
+body {
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  border: 2px dotted blue;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+input {
+  margin: 0px 20px 0px 20px;
+}
+
+#mybtn {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  border: none;
+}
+
+#mybtn:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+
+#diceImages {
+  display: flex;
+}
+
+#diceImages img {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  margin: 25px;
+}
